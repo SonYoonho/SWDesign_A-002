@@ -1,5 +1,4 @@
 ```mermaid
-
 classDiagram
     direction TB
 
@@ -38,5 +37,5 @@ classDiagram
     }
 
     %% 관계 및 다중성 (Multiplicity) 정의
-    Professor 1 -- 1..3 Course  등록 및 관리
-    Student 30..35 -- 3..5 Course  수강신청
+    Professor "1" -- "1..3" Course  등록 및 관리
+    Student "30..35" -- "3..5" Course  수강신청
